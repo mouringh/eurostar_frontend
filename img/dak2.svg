@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="329px" height="287px" viewBox="0 0 329 287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>dak2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kijkpagina_expats" transform="translate(-630.000000, -354.000000)">
+            <rect id="Rectangle" fill="#4B93E6" x="332" y="49" width="1253" height="1031"></rect>
+            <rect id="Rectangle" fill="#81402E" x="334" y="637" width="1251" height="653"></rect>
+            <path d="M790,358 L834.149576,358 L834.149576,469.369167 L894.525731,469.369167 L894.525731,561.510995 L948,561.510995 L948,640 L790,640 L630,640 L630,561.510995 L683.474269,561.510995 L683.474269,469.369167 L743.850424,469.369167 L743.850424,358 L790,358 Z" id="Combined-Shape" fill="#81402E"></path>
+            <path d="M1099,458 C1129.04005,458 1149.24381,476.022672 1159.61127,512.068015 L1228.56329,533.352226 L1228.56329,639 L1251,639 L1082.08947,639 L948,639 L970.289103,639 L970.289103,533.352226 L1038.78749,512.068015 C1049.08674,476.022672 1069.15758,458 1099,458 Z" id="Combined-Shape" fill="#81402E"></path>
+            <rect id="Rectangle" stroke="#8B572A" stroke-width="4" fill-opacity="0.5" fill="#4A90E2" x="764" y="511" width="51" height="51"></rect>
+        </g>
+    </g>
+</svg>

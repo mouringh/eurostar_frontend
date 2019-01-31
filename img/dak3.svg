@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="287px" viewBox="0 0 295 287" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>dak3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kijkpagina_expats" transform="translate(-959.000000, -354.000000)">
+            <rect id="Rectangle" fill="#4B93E6" x="332" y="49" width="1253" height="1031"></rect>
+            <rect id="Rectangle" fill="#81402E" x="334" y="637" width="1251" height="653"></rect>
+            <path d="M1099,458 C1129.04005,458 1149.24381,476.022672 1159.61127,512.068015 L1228.56329,533.352226 L1228.56329,639 L1251,639 L1082.08947,639 L948,639 L970.289103,639 L970.289103,533.352226 L1038.78749,512.068015 C1049.08674,476.022672 1069.15758,458 1099,458 Z" id="Combined-Shape" fill="#81402E"></path>
+            <path d="M1480.22833,475 C1476.81188,535.182637 1511.73577,589.849304 1585,639 L1431.2183,639 L1396.49437,639 L1251,639 C1325.65974,589.849304 1361.24885,535.182637 1357.76733,475 L1356.34915,475 L1340,475 L1340,443.083269 L1419,383 L1498,443.083269 L1498,475 L1481.65085,475 L1480.22833,475 Z" id="Combined-Shape" fill="#81402E"></path>
+            <circle id="Oval" stroke="#8B572A" stroke-width="5" fill="#656787" cx="1100" cy="565" r="28"></circle>
+        </g>
+    </g>
+</svg>

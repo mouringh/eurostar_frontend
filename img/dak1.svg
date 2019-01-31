@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="296px" height="262px" viewBox="0 0 296 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>dak1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kijkpagina_expats" transform="translate(-334.000000, -379.000000)">
+            <rect id="Rectangle" fill="#4B93E6" x="332" y="49" width="1253" height="1031"></rect>
+            <rect id="Rectangle" fill="#81402E" x="334" y="637" width="1251" height="653"></rect>
+            <path d="M431,443 L432,443 C434.028522,401 450.695189,380 482,380 C513.304811,380 529.957939,401 531.959382,443 L537,443 L551.042683,443 C551.042683,464.540312 551.042683,489.466178 551.042683,517.777599 C551.042683,546.08902 577.361789,586.496487 630,639 L537,639 L537,641 L431,641 L431,639 L334,639 C386.638211,586.496487 412.957317,546.08902 412.957317,517.777599 C412.957317,489.466178 412.957317,464.540312 412.957317,443 L431,443 Z" id="Combined-Shape" fill="#81402E"></path>
+            <rect id="Rectangle" stroke="#8B572A" stroke-width="4" fill-opacity="0.5" fill="#4A90E2" x="462" y="573" width="41" height="63"></rect>
+        </g>
+    </g>
+</svg>

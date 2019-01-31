@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head><script src="form.js"></script>
+     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></head>
+    
+    
+    <body>
+        
+        <header class="topnav">
+      <a href="home">
+	 <img class="logo" src="../img/eurostar-logo.png" alt="logo" height="20px"> </a>
+ 
+    </header>
+
+<h2>Vul uw gegevens in om u te melden voor Eurostar stories</h2> <p>* de velden met een sterretje zijn verplicht</p>
+    
+<form name="myForm" action="overzichtpagina.html" onsubmit="returnvalidateForm()"method="post">
+   
+    
+ <fieldset>
+  <legend>Vul uw gegevens in</legend>
+  <input type="radio" name="gender" value="male" checked> Vrouw<br>
+  <input type="radio" name="gender" value="female"> Man<br>
+  <input type="radio" name="gender" value="other"> Anders<br>
+     
+  *Voornaam:<br>
+  <input type="text" name="voornaam" required><br>
+     
+  *Achternaam:<br>
+  <input type="text" name="achternaam" required><br>
+     
+  *Geboortedatum:<br>
+  <input type="date" name="geboortedatum" required><br>
+     
+  *Straat:<br>
+  <input type="text" name="straat" required><br>
+     
+  *Huisnummer:<br>
+  <input type="text" name="huisnummer" required><br>
+     
+  *Postcode:<br>
+  <input type="text" name="postcode" required><br>
+     
+  *Plaats:<br>
+  <input type="text" name="plaats" required><br>
+     
+  *Email adres:<br>
+       <input type="email" name="email" required><br>
+
+   *Wachtwoord:<br>
+     <input type="password" name="wachtwoord" required><br><br>
+     
+ 
+     
+ </fieldset>
+    
+    <fieldset>
+    <legend>
+        Welk type reiziger bent u?</legend>
+        
+        <label> <input type="checkbox" name="kort">city breakers<p> reizigers die graag andere steden bezoeken voor cultuur, eten en evenementen</p> </label><br>
+            
+        <label><input type="checkbox" name="gemiddeld">work<p> reizigers die reizen voor zaken</p></label><br>
+            
+        <label><input type="checkbox" name="lang">expats and relatives<p> expats and relatives zijn reizigers die vaak meerdere keren per jaar heen en weer reizen tussen steden om familie op te zoeken</p></label><br>
+        
+     <label><input type="checkbox" name="lang" >leisure connectors<p> Een leisure connector is een reiziger die graag lange reizen maaakt door heel Europa</p>
+       </label> <br>
+                 
+        
+            
+    </fieldset>
+    <br>
+    
+     <input href="overzichtpagina.html" class="verstuur_knop" type="submit" value="verstuur">
+</form>
+
+
+</body>
+</html>

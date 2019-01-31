@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* navigatie */
+.topnav {
+  background-color: #274D79;
+  overflow: hidden;
+}
+
+.topnav a {
+    display: block;
+    margin-top: 9px;
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+  a:active {
+    text-decoration-color: white;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    margin: 0 auto;    
+}
+
+
+.topnav input[type=search]{
+    background-color: white;
+  float: left;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+  font-size: 17px;
+  border-radius: 1px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:600px){
+    .topnav>p{
+        display: none;
+    }
+}
+/*-----------------------------*/
+
+/*tekst opmaak*/
+
+.topnav>p {
+    margin-top: 10px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+    float: left;
+}
+
+h1 {
+ color: #f2f2f2;  
+ font-family: 'Open Sans', sans-serif;
+
+}
+
+h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #4B93E6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    color: white;
+}
+
+/*---------------------------------*/
+
+/* collums */
+.dak1 {
+  background-color: #81402E;
+  position: relative;
+  width: 25%;
+    float: right;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.dak2 {
+        float: right;
+  background-color: #81402E;
+  position: relative;
+  width: 25%;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.dak3 {
+        float: right;
+  background-color: #81402E;
+  position: relative;
+  width: 25%;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.dak4 {
+        float: right;
+  background-color: #81402E;
+  position: relative;
+  width: 25%;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.collumn {
+        float: right;
+    flex-direction: column;
+  background-color: #81402E;
+  position: relative;
+  width: 25%;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.text_img {
+    align-items:center;
+    width: 71%;
+    margin-left: 14%;
+    padding: 5px;
+    position: absolute;
+    bottom: 29px;
+    background-color: #D8D8D8;
+    font-size: 8pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_img {
+    display: flex;
+    width: 203px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    padding: 5px;
+    position: relative;
+    bottom: 29px;
+    background-color: #D8D8D8;
+    font-size: 8pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 720px){
+
+    
+
+
+    
+    .dak1 {
+  display: flex;
+  background-color: #81402E;
+  position: relative;
+  width: 100%;
+}   
+    
+.dak2{
+        display: none;
+    }
+    
+.dak3{
+        display: none;
+    }
+    
+.dak4{
+        display: none;
+    }
+  
+
+    
+.collumn {
+  display: flex;
+  background-color: #81402E;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_img:hover{
+background-color: darkgrey;
+
+}
+
+/*
+.verhalen {
+  background-color: #81402E;
+  display: flex;
+  text-align: left;
+  color: black;
+  position: relative;
+}
+
+.column {
+  margin-left: 100px;
+  flex: 25%;
+}
+*/
+
+.text_img {
+    align-items:center;
+    width: 203px;
+    margin-left: 17%;
+    margin-bottom: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #D8D8D8;
+    font-size: 8pt;
+    font-family: 'Open Sans', sans-serif;
+}
+}
+/*---------------------------------*/
+
+
+/*content*/
+
+.content {
+    float: left;
+    display: block;
+    width: 80%;
+    background-color: #81402E;
+}
+/*---------------------------------*/
+
+/*aside*/
+
+.sidebar_rechts {
+    float: right;
+    display: block;
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    background-color: #D8D8D8; 
+}
+/*---------------------------------*/
+
+
+/*formulier */
+
+.verstuur_knop{
+    font-size: 16px;
+    height: 30px;
+    width: 150px;
+    background-color: #4B93E6;
+    border-radius: 4px;
+    color: white;
+}
+
+input+p{
+    display:none;}
+
+input:hover+p{
+    display:inline;
+position: relative;
+border-bottom: 1px dotted black;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+input[type=text]:valid{
+    background-color: #E1F7C6;
+    border-style: 
+    
+
+}
+
+input[type=submit]:hover {
+  background-color: #0C6FE1;
+}
+
+/*---------------------------------*/
+
+
+
+
+/* bronnen: w3schools.com
+https://stackoverflow.com 
+*/ 

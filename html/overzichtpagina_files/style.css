@@ -1,0 +1,28 @@
+/* navigatie */
+.topnav {
+  background-color: #274D79;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+    text-decoration: underline;
+}
+
+*/---*/
+
+h1 {
+ color: #f2f2f2;   
+}
+
+/* bronnen: w3schools.com */ 
