@@ -14,10 +14,10 @@ function myFunction() {
 
 
 
-//function validateForm() {
-//    var x = document.forms["myForm"]["voornaam"].value;
-  //  if (x == "") {
-  //      alert("Name must be filled out");
-  //      return false;
- //   }
-//}
+function validateForm() {
+  var x = querySelector.forms["myForm"]["voornaam"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
