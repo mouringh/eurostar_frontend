@@ -1,126 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <script src="../javascript/form.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     
- <header class="topnav">
- <a href="home">
-   <img src="../img/eurostar-logo.png" alt="logo" height="20px"> </a>
-   <p>sorteren op:</p>
-  <a class="topnav_onactief" href="overzichtpagina.html">aanbevolen door andere</a>
-  <a class="topnav_onactief"  href="overzichtpagina_leestijd.html">leestijd</a>
-     
-  <a class="topnav_onactief" href="overzichtpagina_kunstzinnig.html">kunstzinnig</a>
-  <a class="topnav_onactief" href="overzichtpagina_alfabetisch.html">alfabetsich</a>
-  <a class="active" href="overzichtpagina_verrassend.html">verrassend</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-     <input type="search" placeholder="zoeken...">
-    </header>
+  <header>
+    <input class="zoekbalk" type="search" placeholder="zoeken..."  />
+    <img class="hamburger_button" src="../img/hamburger_menu_button.png" alt="" height="" width="">
+    <img class="logo" src="../img/eurostar-logo.png" alt="logo" width="69px" height="25px"> 
+    <a href="landingspage.html" class="account_button"><img  src="../img/SVG/account_icon.svg"  height="25px"></a>
+    <ul id="nav_list">
+     <li><a class=""  href="overzichtpagina_home.html">aanbevolen door andere</a></li>
+     <li><a class=""  href="overzichtpagina_leestijd.html">leestijd</a></li>
+     <li><a class="" href="overzichtpagina_kunstzinnig.html">kunstzinnig</a></li>
+     <li><a class="" href="overzichtpagina_alfabetisch.html">alfabetsich</a></li>
+     <li><a class="active" href="overzichtpagina_verrassend.html">verrassend</a></li>
+    </ul>
+  </header>
     
-    
-   
-    
-    
-    <main class="content">
-        
-  <h2>Hallo reiziger, achter elk raam wacht een verhaal op u. Klik op het verhaal om het te bekijken.</h2>
-            
-        
-        <article class="verhalen">
-            
-            <img class="dak1" src="../img/dak1.svg" alt="" width="203" height="287"> 
-            
-            <img class="dak2" src="../img/dak2.svg" alt="" width="203" height="287"> 
-            
-            <img class="dak3" src="../img/dak3.svg" alt="" width="203" height="287" >
-            
-            <img class="dak4" src="../img/dak4.svg" alt="" width="203" height="287"> 
 
-        </article>
-            
-                    <article class="verhalen">
+    <main>
 
-            
-<section class="collumn border">
-    <img src="../img/job.jpg" alt="kater" height="" width=""> <p class="text_img"> job
-    </p>
-  <a href="..."></a>
-</section>
-     
-      <section class="collumn border">
-  <img src="../img/lucassen.jpg" alt="job" height="" width="" class="">
+          
+      <h2>Hallo reiziger, achter elk raam wacht een verhaal op u. Klik op het verhaal om het te bekijken.</h2>
+                
+      <div class="flex-container">
+
+
+        <div class="card">
+          <a href="artikel_job.html">
+          <img src="../img/job.jpg" alt="kater" height="" width="">
+          </a> 
+          <p class="text_img"> job
+            </p>
+        </div>
+      
+        <div class="card">
+          <img src="../img/lucassen.jpg" alt="job" height="" width="" class="">
           <p class="text_img"> lucassen</p>
-  <a href="..."></a>
-</section>
-     
-  <section class="collumn border">
- <img src="../img/ongeboren.jpg" alt="haiku" height="" width="" class=""> <p class="text_img"> ongeboren
-    </p>
-  <a href="..."></a>
-</section>
-    
-  <section class="collumn border">
-  <img src="../img/schoorsteen.jpg" alt="dagblad" height="" width=""> <p class="text_img"> schoorsteen
-    </p>
-  <a href="..."></a>
-</section>
-    
-                        </article>
-                            <article class="verhalen">
+          <a href="..."></a>
+        </div>
+      
+        <div class="card">
+          <img src="../img/ongeboren.jpg" alt="haiku" height="" width="" class=""> <p class="text_img"> ongeboren
+          </p>
+          <a href="..."></a>
+        </div>
+      
+        <div class="card">
+          <img src="../img/schoorsteen.jpg" alt="dagblad" height="" width=""> <p class="text_img"> schoorsteen
+          </p>
+          <a href="..."></a>
+        </div>
+                                        
+        <div class="card">
+          <img src="../img/droom.jpg" alt="schoorsteen" height="" width=""> <p class="text_img"> droom
+          </p>
+          <a href="..."></a>
+        </div>
+      
+        <div class="card">
+          <img src="../img/dagblad.jpg" alt="droom" height="" width=""><p class="text_img"> dagblad
+          </p>
+          <a href="..."></a>
+        </div>
+      
+        <div class="card">
+          <img src="../img/haiku.jpg" alt="ongeboren" height="" width=""><p class="text_img">haiku
+          </p>
+          <a href="..."></a>
+        </div>
+      
+        <div class="card">
+          <img src="../img/kater.jpg" alt="lucassen" height="" width=""><p class="text_img"> kater
+          </p>
+          <a href="..."></a>
+        </div>
 
-                        
-  <section class="collumn border">
- <img src="../img/droom.jpg" alt="schoorsteen" height="" width=""> <p class="text_img"> droom
-    </p>
-  <a href="..."></a>
-</section>
-    
-  <section class="collumn border">
-  <img src="../img/dagblad.jpg" alt="droom" height="" width=""><p class="text_img"> dagblad
-    </p>
-  <a href="..."></a>
-</section>
-    
-  <section class="collumn borden">
- <img src="../img/haiku.jpg" alt="ongeboren" height="" width=""><p class="text_img">haiku
-    </p>
-  <a href="..."></a>
-</section>
-    
-  <section class="collumn border">
-  <img src="../img/kater.jpg" alt="lucassen" height="" width=""><p class="text_img"> kater
-    </p>
-  <a href="..."></a>
-</section>
-    
-</article>
-        
-        
+      </div>
 
-</main>
-    
-    
-   <aside class="sidebar_rechts"> 
-       aanbevolen voor u:
-       <br>
-       <br>
-       leeslijst:
+    </div>
+      
+    </main>
+      
+    <aside class=""> 
+      <ul>
+        <li> <a href=""> leeslijst: </a> <i class="fa fa-sort-down"></i> </li>
+      </ul>
     </aside>
+
     
     
   <footer>
     
     </footer>
     
-    
+    <script src="../js/form.js"></script>
+
 
 </body>
 </html>

@@ -1,112 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/c5e261da55.js"></script>
 </head>
+
 <body>
     
- <header class="topnav" id="myTopnav">
-    <a class="terug" href="overzichtpagina.html" > terug </a>
+  <header class="nav_artikel">
+    <a href="overzichtpagina_home.html"> <i class="fa fa-arrow-left"> </i>  </a>
+    <input id="zoekbalk_artikel" class="zoekbalk" type="search" placeholder="zoeken..."  />
+    <img class="hamburger_button" src="../img/hamburger_menu_button.png" alt="" height="" width="">   
+  </header>
+  
+  <div class="flex-container-main-and-aside">
+  <main>
+  
+    <article>
 
-    <a href="overzichtpagina.html"> <img src="../img/pijltje.png" class="pijltje_terug">  </a>
+      <h3>Job Cohen</h3>
+  
+      <img class="img_job" src="../img/job_artikel.jpg">
+  
+      <p>
+        Euh, ik stap, euh uit bus 21. Halte Centraal Station. In de stad waar ik met zoveel plezier burgemeester was. Tot nu toe gaat het goed. De kinderwagen slaapt in mijn zoon, of, nee, euh euh, ik bedoel… Ik loop winderig langs de bouwputten naar de Openbare Biobak. Of, euh… ik bedoel… Op zoek naar Oefenstijlen van Bruno, nee euh, Raymond Queneau. Dat moeten we met z’n allen niet willen. Of, of… euh… ik bedoel: Amsterdam is een chaos hier. Dat komt, wij waren amateurs in feite. Goedwillende amateurs. Maar, euh, amateurs.    
+      </p>
+      <p>
+        Vlak voor de biliblio… blibilio… bibelibido… vlak voor de biotheek word ik aangeklampt door een vrouw met harte zwaren, of euh, nee, ik bedoel… Ze praat Frans met een Engels accent, of… nee… andersom. Ze vraagt of dit het kotspantoor is. Polskantoor, bedoel ik. Postkantoor. Ja, zeg ik, euh, euh, dit is het ponskartoor, of nee, niet, of… Raamhuigstraat! Daar moet u zijn! Een auto gaat achteruit vooruit. De vrouw draait haar borsten, euh hoofd om en rent achter de auto aan.
+      </p>
+      <p>
+        Binnen zoek ik op de, euh, tweede verdiepgang bij de Q naar Stijfoenelingen. Maar niks. Euh, voor de zekerheid zoek ik nog bij alle andere letters van het albafet, maar niks, of, nee, dus… Dit is precies wat we met z’n allen niet willen! Op de computer euh tik ik het gezochte boek in en waarimpel, het is wel dergelijk, euh euh, aanwezend. Samen met een wedemerker, euh, zoek ik nogmaals, maar niks. Nogmaals: en dáár gaat het om. De medewerker raadt mij aan een stuur te mailen naar het magere zwijn, euh, ik bedoel het magazijn. Ik euh mail een mailtje en een kwartier later mailt het magazijn terug dat het gebochte zoek gewoon op de daartoe euh euh aangezwollen plek zou moeten liggen.
+        Op het, euh, Lomp en Boschkerplein koop ik een paar, euh babyschoentjes. Want het moét eerlijker in dit, euh, land!
+      </p>
+    </article>
 
-    <div class="bookmark" id="bookmark_leeg" onclick="opgeslagen_leeslijst()" >
-<svg width="17px" height="22px" viewBox="0 0 17 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+    <section class="knoppen_onder_artikel">
+      <h4>Zou je dit verhaal aanbevelen aan andere reizigers?</h4>
+      <input href="overzichtpagina.html" class="ja_knop" type="submit" value="ja" id="knop">
+      <input href="overzichtpagina.html" class="nee_knop" type="submit" value="nee" id="knop2" >
+    </section>
+
+  </main>
+ 
+  <aside>
+
+    <section class="bookmark" id="bookmark_leeg" >
+      <h4>Opslaan in leeslijst</h4>
+      <svg width="17px" height="22px" viewBox="0 0 17 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
       <g id="artikelpagina_" transform="translate(-1870.000000, -13.000000)" fill="#9B9B9B" stroke="#4A4A4A">
           <g id="bookmark_unpressed" transform="translate(1871.000000, 14.000000)">
-              <polygon id="Path"  points="5.68434189e-14 1.77635684e-15 14.997688 1.77635684e-15 14.997688 19.7238033 7.49884398 12.874586 5.68434189e-14 19.7238033"></polygon>
-          </g>
-      </g>
-  </g>
-</svg>
-</div>
+          <polygon id="Path"  points="5.68434189e-14 1.77635684e-15 14.997688 1.77635684e-15 14.997688 19.7238033 7.49884398 12.874586 5.68434189e-14 19.7238033"></polygon></g></g></g>
+      </svg>
+    </section>
 
-    <h3>Job Cohen</h3>
-    </header>
+    <section class="verhalen_onder_artikel_door_andere">
 
-    <img class="img_job" src="../img/job_artikel.jpg">
+      <h4> Verhalen aanbevolen door andere reizigers:</h4>
 
+      <article class="">
+        <h6>Kater</h6>
+        <p> Dit verhaal gaat over...</p>
+        <a href="..."> lees verder </a>
+      </article>
+              
+      <article class="">
+        <h6>Haiku</h6>
+        <p> Dit verhaal gaat over...</p>
+        <a href="..."> lees verder </a>
+      </article>
+              
+      <article class="">
+        <h6>Regionaal dagblad</h6>
+        <p>Dit verhaal gaat over...</p>
+        <a href="..."> lees verder </a>
+      </article>
+              
+      <article class="">
+        <h6>Vredig </h6>
+        <p>Dit verhaal gaat over...</p>
+        <a href="..."> lees verder </a>
+      </article>
+              
+    </section>
 
-    <div class="knoppen_onder_artikel">
-    <p>Zou je dit verhaal aanbevelen aan andere reizigers?</p>
-    <input href="overzichtpagina.html" class="ja_knop" type="submit" value="ja" id="knop" onclick="opgeslagen_aanbeveling()">
-    <input href="overzichtpagina.html" class="nee_knop" type="submit" value="nee" id="knop2" onclick="opgeslagen_aanbeveling2()">
-</div>
-    <br><br>
-
-    
-
-    <article class="verhalen_onder_artikel">
-
-            
-        <p><strong> Aanbevolen door andere reizigers:</strong></p>
-        <br>
-
-        <section class="collumn border_artikel">
-            <img src="../img/kater.jpg" alt="kater" height="" width=""> <p class="text_img" href=""> aaanbevolen door andere: 600 keer
-            </p>
-          <a href="..."></a>
-        </section>
-             
-              <section class="collumn border_artikel">
-          <img src="../img/job.jpg" alt="job" height="" width="" class="">
-                  <p class="text_img"> aaanbevolen door andere: 615 keer</p>
-          <a href="..."></a>
-        </section>
-             
-          <section class="collumn border_artikel">
-         <img src="../img/haiku.jpg" alt="haiku" height="" width="" class=""> <p class="text_img"> aaanbevolen door andere: 598 keer
-            </p>
-          <a href="..."></a>
-        </section>
-            
-          <section class="collumn border_artikel">
-          <img src="../img/dagblad.jpg" alt="dagblad" height="" width=""> <p class="text_img"> aaanbevolen door andere: 581 keer
-            </p>
-          <a href="..."></a>
-        </section>
-            
-                                </article>
-<br>
-
-<article class="verhalen_onder_artikel">
-
-            
-    <p><strong> Aanbevolen voor u op basis van je leesgeschiedenis:</strong></p>
-    <br>
-
-    <section class="collumn border_artikel">
-      <img src="../img/schoorsteen.jpg" alt="schoorsteen" height="" width=""> <p class="text_img"> aaanbevolen door andere: 514 keer
-         </p>
-       <a href="..."></a>
-     </section>
-         
-       <section class="collumn border_artikel">
-       <img src="../img/droom.jpg" alt="droom" height="" width=""><p class="text_img"> aaanbevolen door andere: 500 keer
-         </p>
-       <a href="..."></a>
-     </section>
-         
-       <section class="collumn border_artikel">
-      <img src="../img/ongeboren.jpg" alt="ongeboren" height="" width=""><p class="text_img"> aaanbevolen door andere: 402 keer
-         </p>
-       <a href="..."></a>
-     </section>
-         
-       <section class="collumn border_artikel">
-       <img src="../img/lucassen.jpg" alt="lucassen" height="" width=""><p class="text_img"> aaanbevolen door andere: 370 keer
-         </p>
-       <a href="..."></a>
-     </section>
-        
-                            </article>
-                               
-
-                            <script src="../javascript/form.js"></script>
-
+  </aside>
+</div>                 
+  <script src="../js/form.js"></script>
 
 </body>
