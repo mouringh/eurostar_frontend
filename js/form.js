@@ -5,7 +5,7 @@
   //hamburger menu mobiel
   
 function open_the_hamburger(){ //functie om menu te openen wordt aangemaakt
-   var get_menu=document.querySelector("#nav_list"); //var die ervoor zorgt dat er iets gedaan wordt met de header
+   var get_menu=document.querySelector("nav"); //var die ervoor zorgt dat er iets gedaan wordt met het element in de html met id nav_list
    get_menu.classList.toggle("menu_open"); //zorgt ervoor dat er een class wordt toegevoegt als de variabelen wordt aangeroepen
    
 }
@@ -28,16 +28,19 @@ search_it.addEventListener('click', activate_search);
 
 //formulier
 
-function validateForm() {
-  var x = querySelector.forms["myForm"]["voornaam"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-}
+//function validateForm() {
+ // var x = querySelector.forms["myForm"]["voornaam"].value;
+ //   if (x == "") {
+ //       alert("Name must be filled out");
+ //       return false;
+ //   }
+//}
 
-var submit_form=document.querySelector(".knoppen_landingspage");
-submit_form.addEventListener('click', validateForm);
+//var submit_form=document.querySelector(".knoppen_landingspage");
+//submit_form.addEventListener('click', validateForm);
+
+
+
 //
 
 //bookmark
@@ -47,8 +50,13 @@ function opgeslagen_leeslijst(){
       opgeslagen.classList.toggle("gevuld");
 }
 
-  var vullen=document.querySelector(".bookmark");
-  vullen.addEventListener('click', opgeslagen_leeslijst);
+ // var vullen=document.querySelector(".bookmark");
+  //vullen.addEventListener('click', opgeslagen_leeslijst);
+
+  document.querySelector(".bookmark").addEventListener('click', opgeslagen_leeslijst);
+   
+
+
 
 //knoppen onder artikel
 

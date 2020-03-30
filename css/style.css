@@ -8,18 +8,18 @@ https://stackoverflow.com/questions/34633024/padding-inside-div
 
 */
 
+/*algemeen*/
+
 body{
   background: #4B93E6;
   color: #ffffff;
   font-family: 'open sans';
-  
 }
 
 H1{
   font-size: 2em;
   color: #ffffff;
   text-transform: uppercase;
-  margin-left: 10%;
   letter-spacing: 0.2em;
   font-weight: 200;
 }
@@ -41,15 +41,14 @@ H6{
 }
 
 main {
-  top: 30%;
-  display: flex;
-  flex-flow: row wrap;
+  margin: 1%;
+  width: 84%;
 }
 
 p{
-    font-size: 1em;
-    font-style: normal;    
-    font-weight: 200;
+  font-size: 1em;
+  font-style: normal;    
+  font-weight: 200;
 }
 
 ul{
@@ -61,10 +60,11 @@ a{
   color: #ffffff;
 }
 
-/* navigatie algemeen */
+/* header algemeen */
 header {
   overflow: hidden;
   z-index: 2;
+  margin-bottom: 1%;
 }
 
 header a{
@@ -81,7 +81,7 @@ header a{
   padding: 0;
 }
 
-/* navigatie S/M */
+/* header S/M */
 
 @media screen and (min-width:0px) and (max-width: 1199px) {
 
@@ -89,13 +89,7 @@ header a{
   position: absolute;
   display: block;
   left: 1%;
-   }
-
-header {
-  background-color: rgba(255, 255, 255, 0);
-  z-index: 2;
 }
-
 
 .hamburger_button {
   cursor: pointer; 
@@ -109,7 +103,6 @@ header a{
   text-decoration: none;
   padding: 1%;
   color: #4B93E6;
-
 }
 
 header ul{
@@ -139,7 +132,6 @@ header input::-webkit-input-placeholder{
   color: #ffffff;
   padding-left: 2em;
 }
-
 
 .search_open input[type=search]{
   width: 25vw;
@@ -172,15 +164,13 @@ header {
 
 }
 
-
-/* navigatie L/XL  */
+/* header L/XL  */
 
 @media screen and (min-width:1200px){
 
 header{
-  position: absolute;
+  position: relative;
   width: 100vw;
-  height: 10em;
 }
 
 header ul{
@@ -190,24 +180,22 @@ header ul{
 }
 
 .logo{
-  position: relative;
+  position: absolute;
   left: 2%;
-  top: 20%;
+  top: 10%;
   display: block;
 }
 
 .account_button {
   position: absolute;
   left: 15%;
-
 }
 
-.nav_list li {
+header li {
   flex-direction: row;
 }
 
-
-header a{
+header a {
   display: flex;
   margin-top: 1%;
   text-align: center;
@@ -221,37 +209,26 @@ header a{
   font-weight: 100;
 }
 
-
-
-
-
 header input[type=search]{
   display: block;
   position: absolute;
   background-color: white;
   right: 5%;  
-  top: 30%;  
+  top: 10%;  
   font-size: 1em;
-  width: 25vw;
   height: 2em;
   border: #fff solid 0.1em;
   border-radius: 0.8em;
   background-position: left;
 }
 
-
 .hamburger_button{
   display: none;
 }
-
-
-
 }
 
 
 /*-----------------------------*/
-
-
 
 /*styling formulier*/
 
@@ -271,7 +248,6 @@ input[type=radio]:checked + label{
 font-weight: 700;
 }
 
-
 fieldset ul{
   padding-left: 0;
 }
@@ -284,7 +260,6 @@ legend{
 
 label{
   font-weight: 200;
-
 }
 
 ul li input[type=radio] + label{
@@ -325,28 +300,27 @@ fieldset{
 }
 
 form {
-    display: block;
-    margin-left: 10%;
-    width: 30%;
-    line-height: 3em;
+  display: block;
+  width: 30%;
+  line-height: 3em;
 }
 
 .img_checkbox input[type=checkbox]{
-    display: none;
+  display: none;
 }
 
 .img_checkbox label{
-    border-radius: 0.33em;
-    margin-bottom: 5em;
-    display: block;
-    position: relative;
-    width: 33vw;
-    height: 25%;
-    border: solid 0.1em rgba(187, 185, 185, 0.1);
-    cursor: pointer;
-    padding: 1em;
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
+  border-radius: 0.33em;
+  margin-bottom: 5em;
+  display: block;
+  position: relative;
+  width: 33vw;
+  height: 25%;
+  border: solid 0.1em rgba(187, 185, 185, 0.1);
+  cursor: pointer;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
 
 .img_checkbox input[type=checkbox]:checked + label {
@@ -358,11 +332,23 @@ form {
   transition: ease-in-out 0.5s;
 }
 
-
-
-
-
 /*********/
+
+/*styling landingspagina*/
+
+button[type=submit]{
+  margin: 0 1% 0% 0%;
+  width: 30%;
+  font-size: 1em;
+  justify-content: center;
+  border-radius: 0.8em;
+  border-style: none;
+  background-color: #ffffff;
+  color: #4B93E6;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
 
 /*overzichtpagina algemeen*/
 
@@ -373,7 +359,6 @@ font-weight: 300;
 color: #363636;
 font-size: 6pt;
 }
-
 
 .card img{
   width: 100%;
@@ -391,7 +376,6 @@ font-size: 6pt;
   box-sizing: border-box
 }
 
-
 .text_img:hover{
   background-color: darkgrey;
 }
@@ -399,14 +383,9 @@ font-size: 6pt;
 /* content overzichtpagina XL */
 @media (min-width: 1200px){
 
-
 main {
-  display: block;
-  width: 80%;
-  position: absolute;
-  top: 30%;
+  position: relative;
 }
-
 
 .flex-container {
   display: flex;
@@ -418,36 +397,11 @@ main {
   color: black;
   margin-bottom: 18%;
   height: 9.75em;
-  width: 18%;
-  margin-left: 3%;
   margin-right: 3%;
 }
 }
 
-/* content overzichtpagina S */
 
-@media screen and (min-width:0px) and (max-width: 767px){
-  
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  position: relative;
-  width: 100%;
-  text-align: left;
-  color: black;
-  margin-bottom: 65%;
-  justify-content: center;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-}
 
 /* content overzichtpagina M/L */
 
@@ -461,7 +415,6 @@ main {
 
 .card {
   position: relative;
-  width: 33%;
   text-align: left;
   color: black;
   margin-bottom: 28%;
@@ -469,6 +422,31 @@ main {
 }
 }
 
+
+/* content overzichtpagina S */
+
+@media screen and (min-width:0px) and (max-width: 767px){
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    color: black;
+    margin-bottom: 65%;
+    justify-content: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  }
 
 /*artikel pagina*/
 
@@ -483,10 +461,12 @@ h3{
   display: none;
 }
 
+
+/*animatie opslaan in leeslijst*/
+
 #bookmark_leeg  {
   transition: all;
   cursor: pointer;
-  
   }
   
 .gevuld {
@@ -506,14 +486,24 @@ h3{
 
 
 .verhalen_onder_artikel_door_andere{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  position: relative;
+  margin-left: 2%;
+  margin-top: 10%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+.verhalen_onder_artikel_door_andere h4{
+  position: absolute;
+  display: block;
+  top: -20%;
 }
 
 
 .knoppen_onder_artikel [type=submit]{
-  margin: 0 1% 10% 10%;
+  margin: 0 1% 0% 0%;
   width: 12%;
   font-size: 1em;
 }
@@ -522,12 +512,10 @@ h3{
   background-color: rgb(8, 87, 177);
 }
 
-
-
 /*artikel content XL*/
 
 @media screen and (min-width: 1200px){
-  article p{
+  main article p{
     width: 30vw;
     margin-left: auto;
     margin-right: auto;
@@ -539,8 +527,8 @@ h3{
 }
 
 /*artikel content M*/
-@media screen and (min-width: 767px){
-  article p{
+@media screen and (min-width: 767px) and (max-width: 1199px){
+  main article p{
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
@@ -551,19 +539,42 @@ h3{
   }
 }
 
+/*artikel content S*/
+
+@media screen and (max-width: 766px){
+  main article p{
+    width: 100vw;
+   
+  }
+
+  .img_job{
+    width: 100vw;
+  }
+}
+
+/*aside algemeen*/
+
+aside {
+  background-color: #274D79;
+  padding: 2%;
+  box-sizing: border-box;
+  margin: 1%;
+}
+
 /*aside L/XL*/
 
 @media (min-width: 1200px) {
 aside {
   position: absolute;
-  top: 30%;
+  top: 15%;
   right: 0%;
   font-size: 10pt;
   font-family: 'Open Sans', sans-serif;
-  width: 20%;
-  height: 100vh;
+  width: 16%;
 }
 }
+
+
 /*---------------------------------*/
 
 
@@ -594,10 +605,10 @@ input[type=submit]:hover {
 /* states header*/
 
 li a:hover{
-  color: #0C6FE1;
+  color: rgb(1, 11, 24);
 }
 
-ul#nav_list .active{
+ul .active{
   font-weight: 900;
 }
 
@@ -611,28 +622,22 @@ input[type=submit]{
    cursor: pointer;
 }
 
+
+input[type=submit]:focus{
+  background-color: #274D79;
+  border-style: none;
+}
+
 /*nav artikel*/
 
-.nav_artikel {
-  display: block;
-  position: absolute;
-  width: 100vw;
-  height: 10%;
-  background-color: #4B93E6;
-
-}
 
 .nav_artikel a{
   display: block;
-  margin: 0;
-  left: 0%;
-  top: 0%;
   position: relative;
   cursor: pointer;
   text-align: left;
-  color: #fff;
+  color: #ffffff;
 }
-
 
 .nav_artikel .hamburger_button{
   display: none;

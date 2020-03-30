@@ -4,8 +4,7 @@
     <!--bronnen: https://stackoverflow.com/, https://www.w3schools.com/, 
         https://codepen.io/vasslehel/pen/XbVNLY, https://css-tricks.com/,
         https://www.leenix.co.uk/news-css-tricks-using-images-as-checkboxes-in-your-html-forms-19
-        img: Photo by Yulian Alexeyev on Unsplash, Photo by Hunters Race on Unsplash, 
-        Photo by Jonathan Daniels on Unsplash, Photo by Fabiola Peñalba on Unsplash -->
+         -->
 </head>
 
 <body>
@@ -13,111 +12,117 @@
     <header>
     </header>
 
-    <h1>
-    aanmelden
-    </h1>
+    <main>
 
-    <p>
-    Vul uw gegevens in om aan te melden voor Eurostar Stories
-    </p>
-  
-    <form name="myForm" action="overzichtpagina_home.html" onsubmit="" method="post">
+        <h1>
+        aanmelden
+        </h1>
 
-        <fieldset>
-            <legend>Contactgegevens</legend>
+        <p>
+        Vul uw gegevens in om aan te melden voor Eurostar Stories
+        </p>
+    
+        <form name="myForm" action="overzichtpagina_home.html" onsubmit="" method="post">
 
-            <ul>
-                <li>
-                    <input type="radio" name="gender" value="1" id="gender1"> 
-                    <label for="gender1"> Man</label> 
-                </li>
-                <li>
-                    <input type="radio" name="gender" value="2" id="gender2"> 
-                    <label for="gender2">  Vrouw </label>
-                </li>
-                <li>
-                    <input type="radio" name="gender" value="3" id="gender3"> 
-                    <label for="gender3">  Anders </label>
-                </li>
-            </ul>
-
-            <label for="voornaam"> Voornaam: </label>
-            <input type="text" name="voornaam" required>
-            
-            <label for="achternaam"> Achternaam: </label>
-            <input type="text" name="achternaam" required>
-            
-            <label for="geboortedatum"> Geboortedatum: </label>
-            <input type="date" name="geboortedatum" required>
-            
-            <label for="straat"> Straat: </label>  
-            <input type="text" name="straat" required>
-            
-            <label for="huisnummer"> Huisnummer: </label>  
-            <input type="text" name="huisnummer" required>
-            
-            <label for="postcode" > Postcode: </label>  
-            <input type="text" name="postcode" required>
-            
-            <label  for="plaats"> Plaats: </label> 
-            <input type="text" name="plaats" required>
-            
-            <label for="email"> Email adres: </label>  
-            <input type="email" name="email" required>
-        
-            <label for="wachtwoord"> Wachtwoord: </label>  
-            <input type="password" name="wachtwoord" required>
-            
-        </fieldset>
-
-        <fieldset>
-            
-            <legend>
-
-                Om uw reis nog aangenamer te maken vragen wij uw tot welk type reiziger(s) uw zich het meest voelt aangeroepen? 
-                <a href="http://www.eurostarmedia.eu/audiences/"> <b>meer informatie</b> </a>
-               
-            </legend>
+            <fieldset>
                 
-            <div class="img_checkbox">
-                <input type="checkbox" id="city_breakers" name="city_breakers">
-                <label for="city_breakers"> 
-                    city breakers 
-                    reizigers die graag andere steden bezoeken voor cultuur, 
-                    eten en evenementen
-                </label>
-            </div>
+                <legend>Contactgegevens</legend>
+
+                <ul>
+                    <li>
+                        <input type="radio" name="gender" value="1" id="gender1"> 
+                        <label for="gender1"> Man</label> 
+                    </li>
+                    <li>
+                        <input type="radio" name="gender" value="2" id="gender2"> 
+                        <label for="gender2">  Vrouw </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="gender" value="3" id="gender3"> 
+                        <label for="gender3">  Anders </label>
+                    </li>
+                </ul>
+
+                <label for="voornaam"> Voornaam: </label>
+                <input type="text" name="voornaam" required>
                 
-            <div class="img_checkbox">
-                <input type="checkbox" id="work" name="gemiddeld"/>
-                <label for="work">  
-                    work 
-                    reizigers die reizen voor zaken
-                </label>
-            </div>
+                <label for="achternaam"> Achternaam: </label>
+                <input type="text" name="achternaam" required>
+                
+                <label for="geboortedatum"> Geboortedatum: </label>
+                <input type="date" name="geboortedatum" required>
+                
+                <label for="straat"> Straat: </label>  
+                <input type="text" name="straat" required>
+                
+                <label for="huisnummer"> Huisnummer: </label>  
+                <input type="text" name="huisnummer" required>
+                
+                <label for="postcode" > Postcode: </label>  
+                <input type="text" name="postcode" required>
+                
+                <label  for="plaats"> Plaats: </label> 
+                <input type="text" name="plaats" required>
+                
+                <label for="email"> Email adres: </label>  
+                <input type="email" name="email" required>
             
-            <div class="img_checkbox">
-                <input type="checkbox" id="expats" name="lang"/>
-                <label for="expats">  
-                    expats and relatives  
-                    expats and relatives zijn reizigers die vaak meerdere keren per jaar 
-                    heen en weer reizen tussen steden om familie op te zoeken
-                </label>
-            </div>
+                <label for="wachtwoord"> Wachtwoord: </label>  
+                <input type="password" name="wachtwoord" required>
+                
+            </fieldset>
+
+            <fieldset>
+                
+                <legend>
+
+                    Om uw reis nog aangenamer te maken vragen wij uw tot welk type reiziger(s) uw zich het meest voelt aangeroepen? 
+                    <a href="http://www.eurostarmedia.eu/audiences/"> <b>meer informatie</b> </a>
+                
+                </legend>
+                    
+                <div class="img_checkbox">
+                    <input type="checkbox" id="city_breakers" name="city_breakers">
+                    <label for="city_breakers"> 
+                        city breakers 
+                        reizigers die graag andere steden bezoeken voor cultuur, 
+                        eten en evenementen
+                    </label>
+                </div>
+                    
+                <div class="img_checkbox">
+                    <input type="checkbox" id="work" name="gemiddeld"/>
+                    <label for="work">  
+                        work 
+                        reizigers die reizen voor zaken
+                    </label>
+                </div>
+                
+                <div class="img_checkbox">
+                    <input type="checkbox" id="expats" name="lang"/>
+                    <label for="expats">  
+                        expats and relatives  
+                        expats and relatives zijn reizigers die vaak meerdere keren per jaar 
+                        heen en weer reizen tussen steden om familie op te zoeken
+                    </label>
+                </div>
+                
+                <div class="img_checkbox">
+                    <input type="checkbox" id="leisure connectors" name="lang" />
+                    <label for="leisure connectors"> 
+                        leisure connectors
+                        Een leisure connector is een reiziger die graag lange reizen maaakt door heel Europa
+                    </label> 
+                </div>
+
+            </fieldset>
             
-            <div class="img_checkbox">
-                <input type="checkbox" id="leisure connectors" name="lang" />
-                <label for="leisure connectors"> 
-                    leisure connectors
-                    Een leisure connector is een reiziger die graag lange reizen maaakt door heel Europa
-                </label> 
-            </div>
+            <input href="overzichtpagina_home.html" type="submit" value="verstuur" class="knoppen_landingspage"  >
 
-        </fieldset>
-          
-        <input href="overzichtpagina_home.html" type="submit" value="verstuur" class="knoppen_landingspage"  >
+        </form>
 
-    </form>
+    </main>
+
     <script src="../js/form.js"></script>
 
 
