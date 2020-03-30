@@ -451,7 +451,6 @@ main {
 /*artikel pagina*/
 
 h3{
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   color: white;
@@ -515,11 +514,6 @@ h3{
 /*artikel content XL*/
 
 @media screen and (min-width: 1200px){
-  main article p{
-    width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   .img_job{
     width: 60vw;
