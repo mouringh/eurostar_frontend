@@ -35,9 +35,12 @@ H4{
 }
 
 H6{
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-weight: 500;
 }
 
 main {
@@ -272,7 +275,7 @@ input[type=submit]{
   border: #fff solid 0.1em;
   border-radius: 0.8em;
   color: #4B93E6;
-  font-size: 20pt;
+  font-size: 1.5em;
   text-transform: uppercase;
   margin: 20%;
 }
@@ -284,7 +287,7 @@ input[type=submit]{
   background-color: #ffffff;
   width: 33vw;
   color: #4B93E6;
-  font-size: 20pt;
+  font-size: 1.5em;
   text-transform: uppercase;
   margin-top: 1em;
 }
@@ -354,10 +357,9 @@ button[type=submit]{
 
 .card span{
 display: flex;
-margin-top: 1em;
 font-weight: 300;
 color: #363636;
-font-size: 6pt;
+font-size: 0.8em;
 }
 
 .card img{
@@ -368,10 +370,10 @@ font-size: 6pt;
 .text_img {
   align-items:center;
   width: 100%;
-  padding: 1em;
+  padding: 0.3em;
   position: absolute;
   background-color: #D8D8D8;
-  font-size: 8pt;
+  font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box
 }
@@ -396,7 +398,7 @@ main {
   position: relative;
   color: black;
   margin-bottom: 18%;
-  height: 9.75em;
+  height: 100%;
   margin-right: 3%;
 }
 }
@@ -562,7 +564,7 @@ aside {
   position: absolute;
   top: 15%;
   right: 0%;
-  font-size: 10pt;
+  font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   width: 16%;
 }
