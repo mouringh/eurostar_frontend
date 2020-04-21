@@ -24,24 +24,7 @@ function activate_search(){
 var search_it = document.querySelector(".zoekbalk");
 search_it.addEventListener('click', activate_search);
 
-
-
-//formulier
-
-//function validateForm() {
- // var x = querySelector.forms["myForm"]["voornaam"].value;
- //   if (x == "") {
- //       alert("Name must be filled out");
- //       return false;
- //   }
-//}
-
-//var submit_form=document.querySelector(".knoppen_landingspage");
-//submit_form.addEventListener('click', validateForm);
-
-
-
-//
+/////////
 
 //bookmark
 
@@ -49,9 +32,6 @@ function opgeslagen_leeslijst(){
   var opgeslagen=document.querySelector("#bookmark_leeg");
       opgeslagen.classList.toggle("gevuld");
 }
-
- // var vullen=document.querySelector(".bookmark");
-  //vullen.addEventListener('click', opgeslagen_leeslijst);
 
   document.querySelector(".bookmark").addEventListener('click', opgeslagen_leeslijst);
    
