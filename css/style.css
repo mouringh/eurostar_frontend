@@ -29,13 +29,18 @@ H2{
   font-weight: 200;
 }
 
-H4{
-  font-size: 1.2em;
-  font-weight: 300;
+H3{
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-weight: 500;
 }
 
-H6{
-  font-size: 1em;
+
+H4{
+  font-size: 0.8em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-top: 0.3em;
@@ -406,19 +411,19 @@ button[type=submit]{
 
 /*overzichtpagina algemeen*/
 
-.card{
+.flex-container article{
   margin-bottom: 18em;
   margin-right: 2em;
 }
 
-.card span{
+.flex-container article span{
   display: flex;
   font-weight: 300;
   font-size: 0.8em;
   padding-top: 1em;
 }
 
-.card img{
+.flex-container article img{
   width: 100%;
   margin-bottom: -2%;
 }
@@ -451,7 +456,7 @@ main {
   flex-wrap: wrap;
 }
 
-.card{
+.flex-container article{
   position: relative;
   
 }
@@ -469,7 +474,7 @@ main {
   flex-wrap: wrap;
 }
 
-.card {
+.flex-container article {
   position: relative;
   text-align: left;
 }
@@ -485,7 +490,7 @@ main {
     flex-wrap: wrap;
   }
   
-  .card {
+  .flex-container article {
     position: relative;
     width: 100%;
     text-align: left;
@@ -497,7 +502,7 @@ main {
 
 h3{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   color: white;
 }
 
@@ -540,6 +545,7 @@ h3{
 
 .verhalen_onder_artikel_door_andere h4{
   width: 100vw;
+  
 }
 
 .verhalen_onder_artikel_door_andere article{
@@ -568,11 +574,11 @@ h3{
 
 /*artikel content M*/
 @media screen and (min-width: 767px) and (max-width: 1199px){
-  main article p{
+ /* main article p{
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
-  }
+  }*/
 
   .img_job{
     width: 80vw;
@@ -582,10 +588,10 @@ h3{
 /*artikel content S*/
 
 @media screen and (max-width: 766px){
-  main article p{
+  /*main article p{
     width: 100vw;
    
-  }
+  } */
 
   .img_job{
     width: 100vw;
